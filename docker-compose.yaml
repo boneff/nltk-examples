@@ -15,7 +15,6 @@ services:
       tail -f /dev/null
     volumes:
       - ./:/app
-      - myapp:/data
 
 networks:
   app-tier:
